@@ -2,8 +2,6 @@
 - hosts: dev
   become: True
   tasks:
-    - name: become regular user
-      command: logout
     - name: create new deployment
       command: kubectl apply -f /home/ubuntu/deployment.yml
     - name: create new service
