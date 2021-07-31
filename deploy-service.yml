@@ -3,7 +3,7 @@
   become: True
   tasks:
     - name: needd
-      command: kubectl apply -k dir/.
+      command: kubectl apply -k .
     - name: create new deployment
       command: kubectl apply -f /home/ubuntu/deployment.yml
     - name: create new service
