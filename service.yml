@@ -3,10 +3,10 @@ kind: Service
 metadata:
   name: websiteservice
   labels:
-    app: website
+    app: jenkins0
 spec:
   selector:
-    app: website
+    app: jenkins0
   type: NodePort
   ports:
   - port: 8080
