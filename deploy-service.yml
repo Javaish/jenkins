@@ -2,8 +2,6 @@
 - hosts: dev
   become: True
   tasks:
-    - name: runn scri
-      script: script.sh
     - name: create new deployment
       command: kubectl apply -k /home/ubuntu/deployment.yml
     - name: create new service
