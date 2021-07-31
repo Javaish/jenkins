@@ -2,8 +2,6 @@
 - hosts: dev
   become: True
   tasks:
-    - name: needd
+    - name: deployinggg
       command: kubectl apply -f .
-    - name: create new deployment
-      command: kubectl apply -f /home/ubuntu/deployment.yml
 
