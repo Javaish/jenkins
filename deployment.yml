@@ -21,7 +21,7 @@ spec:
     spec: 
       containers:
       - name: jenkins0
-        image: amitroy/website:1
+        image: javeeds/jenkins0:0.8
         ports:
         - containerPort: 80
         
